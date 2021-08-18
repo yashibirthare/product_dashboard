@@ -11,7 +11,6 @@ class FetchWishlistService
 		@response = Net::HTTP.post_form(uri, product_id: product_id)
 	
 	end
-
 	
 
 
